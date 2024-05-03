@@ -1,7 +1,7 @@
 export default function Topbar() {
     return (
         <div>
-            <img src="" alt="Logo"/>
+            <img src={"../../../public/images/full-logo.png"} alt="Logo"/>
         </div>
     )
 }
