@@ -1,10 +1,12 @@
-import Logo from "../../assets/full-logo.png";
+import { UserCircleIcon } from "@heroicons/react/24/outline";
 
 export default function Topbar() {
-    return (
-        <div className="h-16 px-7 flex items-center justify-between border-b border-black">
-            <img src={Logo} alt="Logo" className="h-10"/>
-            <div>Profile Account</div>
-        </div>
-    )
+  return (
+    <div className="h-16 flex items-center justify-end px-10">
+      <div className="flex items-center gap-3">
+        <UserCircleIcon className="size-9 stroke-1" />
+        <p className="mt-0.5">Jimmy Ting</p>
+      </div>
+    </div>
+  );
 }

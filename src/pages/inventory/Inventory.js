@@ -1,12 +1,12 @@
 export default function Inventory() {
   return (
-    <div className="h-[calc(100vh-7rem)] p-6">
+    <div className="min-h-[calc(100vh-7rem)] p-6">
       <div className="mb-6">
         <h1 className="font-serif text-3xl mb-1">Meter Inventory</h1>
         <p className="text-slate-500">Manage water meter all in one place</p>
       </div>
 
-      {/* <div className="flex justify-between mb-7">
+      <div className="flex justify-between mb-7">
         <div className="flex">
           <input
             type="text"
@@ -84,7 +84,7 @@ export default function Inventory() {
           </svg>
           New Meter
         </button>
-      </div> */}
+      </div>
 
       <div className="overflow-x-auto bg-yellow-100">
         <table className="w-full whitespace-nowrap border-collapse border border-slate-500">
