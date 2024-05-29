@@ -6,6 +6,7 @@ import "./index.css";
 
 import App from "./App";
 import PageNotFound from "./pages/404/PageNotFound";
+import Dashboard from "./pages/dashboard/Dashboard";
 import Inventory from "./pages/inventory/Inventory";
 
 import reportWebVitals from "./reportWebVitals";
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <PageNotFound />,
     children: [
+      {
+        index: true,
+        element: <Dashboard />,
+      },
       {
         path: "inventory",
         element: <Inventory />,
