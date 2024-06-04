@@ -7,6 +7,8 @@ import {
   WrenchIcon,
 } from "@heroicons/react/24/outline";
 
+import GeoChart from "../../components/geochart/GeoChart";
+
 export default function Dashboard() {
   return (
     <div className="min-h-[calc(100vh-7rem)] p-8">
@@ -85,7 +87,7 @@ export default function Dashboard() {
         </div>
       </div>
 
-      
+      <GeoChart />
     </div>
   );
 }
